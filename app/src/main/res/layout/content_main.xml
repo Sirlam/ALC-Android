@@ -36,6 +36,7 @@
         android:textColor="@color/colorWhite"
         android:background="@color/colorPrimaryDark"
         android:layout_gravity="center_horizontal"
-        android:text="@string/my_profile"/>
+        android:text="@string/my_profile"
+        android:onClick="showProfile"/>
 
 </LinearLayout>

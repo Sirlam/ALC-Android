@@ -4,4 +4,17 @@
     <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
     <string name="about_alc">ABOUT ALC</string>
     <string name="my_profile">MY PROFILE</string>
+    <string name="nav_header_image">Nav Header Image</string>
+    <string name="name_txt">Salam Olanrewaju</string>
+    <string name="track_txt">Track:</string>
+    <string name="track_value">Android</string>
+    <string name="country_txt">Country:</string>
+    <string name="country_value">Nigeria</string>
+    <string name="email_txt">Email:</string>
+    <string name="email_value">salam_lanre@yahoo.com</string>
+    <string name="phone_txt">Phone Number:</string>
+    <string name="phone_value">2348189850505</string>
+    <string name="slack_txt">Slack Username:</string>
+    <string name="slack_value">\@Sirlam</string>
+    <string name="edit_button">Edit Button</string>
 </resources>

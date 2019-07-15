@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Hey, This is my ALC Challenge", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void showAbout(View view) {
         Intent intent = new Intent(getBaseContext(), AboutActivity.class);
+        startActivity(intent);
+    }
+
+    public void showProfile(View view) {
+        Intent intent = new Intent(getBaseContext(), ProfileActivity.class);
         startActivity(intent);
     }
 }
