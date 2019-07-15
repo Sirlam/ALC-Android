@@ -19,13 +19,15 @@
         android:textSize="26sp" />
 
     <Button
+        android:id="@+id/about_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:textColor="@color/colorWhite"
         android:background="@color/colorPrimary"
-        android:text="@string/about_alc"/>
+        android:text="@string/about_alc"
+        android:onClick="showAbout"/>
 
     <Button
         android:layout_width="match_parent"
