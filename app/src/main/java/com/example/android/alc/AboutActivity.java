@@ -21,7 +21,7 @@ public class AboutActivity extends AppCompatActivity {
 
         WebViewClientImpl webViewClient = new WebViewClientImpl(this);
         webView.setWebViewClient(webViewClient);
-        webView.loadUrl("https://google.com");
+        webView.loadUrl("https://andela.com/alc/");
     }
 
     @Override
